@@ -1,0 +1,55 @@
+.home {
+    color: #808080;
+    /* background-color: bisque; */
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 30px;
+    position: relative;
+}
+
+.home {
+    display: grid; /* Add grid display */
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-gap: 2rem; /* Gap between the columns */
+    backdrop-filter: blur(15px);
+  }
+
+.profile-image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url('../../assets/portfolio.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 15;
+    border: 10px solid white; /* Add border style here */
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-details-header {
+    width: 100%;
+    font-size: 40px;
+}
+
+.profile-details-body {
+    width: 100%;
+    color: rgb(196, 192, 188);
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+

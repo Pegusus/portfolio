@@ -1,0 +1,18 @@
+.Navbar {
+    display: flex;
+}
+.NavMenu a {
+    cursor: pointer;
+  }
+  
+.NavMenu a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,12 @@
+.projects {
+    display: flex;
+    color: #808080;
+    background-color: bisque;
+    width: 80%;
+    height: 100vh;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    z-index: 10;
+}
