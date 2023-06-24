@@ -18,7 +18,7 @@ const Home = forwardRef((props, ref) => {
         <div className='profile-details'>
             <span className='profile-details-header'>
                 Hi, I am 
-            <span style={{fontWeight: 'bold', color: 'blue'}}> {text} </span>
+            <span style={{fontWeight: 'bold', color: '#50e0ff'}}> {text} </span>
             <span><Cursor cursorStyle='<'/></span>
             </span>
             <span className='profile-details-body'>
