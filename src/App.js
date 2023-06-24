@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route index element={<LandingPage/>}  />
+      <Route index element={<LandingPage/>}  path='/portfolio'/>
     </Routes>
     </BrowserRouter>
   );
